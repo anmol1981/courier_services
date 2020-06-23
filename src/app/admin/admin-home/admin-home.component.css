@@ -1,0 +1,14 @@
+.admin_form_position mat-card{
+    position: absolute;
+    left:350px; top:100px;
+    text-align: center;
+    padding: 1%;
+    
+}
+
+.link_priviliges{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: gray;
+}
+

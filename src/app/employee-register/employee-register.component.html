@@ -1,0 +1,57 @@
+
+<div class="admin_form_position">
+
+    <mat-card fxFlex="100">
+      <mat-toolbar color="primary">Employee Registration Form</mat-toolbar>
+      <form fxLayoutAlign="stretch" fxLayout="column" action="/admin_home"> 
+        <div fxLayout="row" fxLayoutAlign="stretch">
+        <mat-form-field>
+          <input matInput placeholder="FirstName">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="MiddleName">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="LastName">
+        </mat-form-field>
+    </div>
+    <div fxLayout="row">
+        <mat-form-field>
+          <input matInput  type="password" placeholder="Password">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput  type="password" placeholder="Re-Enter Password">
+          </mat-form-field>
+    </div>
+    <div fxLayout="row" fxLayoutAlign="stretch">
+        <mat-form-field>
+          <input matInput type="email" placeholder="Email Id">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput type="number" placeholder="Contact Number">
+        </mat-form-field>
+    </div>
+    <div fxLayout="row">
+        <mat-form-field>
+            <input matInput type="date" placeholder="Date of Birth">
+        </mat-form-field>
+        <mat-radio-group>
+            <label>Gender: </label>
+            <mat-radio-button value="1">Male</mat-radio-button>
+            <mat-radio-button value="2">Female</mat-radio-button>
+        </mat-radio-group>
+    </div>
+    <div fxLayout="column">
+        <mat-form-field appearance="fill">
+            <mat-label>Permanent Address</mat-label>
+            <textarea matInput rows="5"></textarea>
+        </mat-form-field>
+    </div>
+   
+    <div fxLayout="column">
+        <button mat-raised-button class="btn_color" type="submit">Sign Up</button>
+    </div>
+      </form>
+    </mat-card>
+  </div>
+  

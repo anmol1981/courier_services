@@ -1,0 +1,12 @@
+.admin_form_position mat-card{
+    position: absolute;
+    left:350px; top:200px;
+    text-align: center;
+     
+}
+
+.btn_color{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: gray;
+}

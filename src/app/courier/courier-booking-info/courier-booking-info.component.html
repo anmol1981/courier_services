@@ -1,0 +1,63 @@
+
+<div class="admin_form_position">
+
+    <mat-card fxFlex="100">
+      <mat-toolbar color="primary">COURIER BOOKING INFORMATION</mat-toolbar>
+      <form fxLayoutAlign="stretch" fxLayout="column" action="/admin_home"> 
+        <div fxLayout="row" fxLayoutAlign="stretch">
+          <mat-form-field>
+            <input matInput disable placeholder="Parcel Number (#1001#)">
+          </mat-form-field>
+        </div>
+        <div fxLayout="row" fxLayoutAlign="stretch">
+        <mat-form-field>
+          <input matInput placeholder="Enter Name">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Enter Email-Id">
+        </mat-form-field>
+        <mat-form-field>
+          <input matInput type="date" placeholder="Enter Date">
+      </mat-form-field>
+    </div>
+    <div fxLayout="row" fxFlex="100" fxLayoutAlign="stretch">
+        <mat-form-field fxFlex="50" appearance="fill">
+            <mat-label>From Address</mat-label>
+            <textarea matInput rows="5"></textarea>
+        </mat-form-field>
+        <mat-form-field fxFlex="50" appearance="fill">
+          <mat-label>To Address</mat-label>
+          <textarea matInput rows="5"></textarea>
+      </mat-form-field>
+    </div>
+    <div fxLayout="row" fxLayoutAlign="stretch">
+      <mat-form-field>
+        <input matInput type="number" placeholder="Enter source_contact">
+      </mat-form-field>
+      <mat-form-field>
+          <input matInput type="number" placeholder="Enter destination_contact">
+      </mat-form-field>
+    </div>
+    <div fxLayout="row" fxLayoutAlign="stretch">
+      <mat-form-field>
+        <input matInput placeholder="Enter Source">
+      </mat-form-field>
+      <mat-form-field>
+          <input matInput placeholder="Enter Destination">
+      </mat-form-field>
+      </div>
+      <div fxLayout="row" fxLayoutAlign="stretch">
+        <mat-form-field>
+          <input matInput type="number" placeholder="Approx Weight">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput type="number" disabled placeholder="Amount">
+        </mat-form-field>
+        </div>
+      <div fxLayout="column">
+        <button mat-raised-button class="btn_color" type="submit">Send Request</button>
+    </div>
+      </form>
+    </mat-card>
+  </div>
+  

@@ -1,0 +1,13 @@
+.admin_form_position mat-card{
+    position: absolute;
+    left:170px; top:100px;
+    text-align: center;  
+    align-items: center;
+}
+example-container .mat-form-field + .mat-form-field {
+    margin-left: 18px;
+  }
+
+.btn_color{
+     background-color: gray;
+}
